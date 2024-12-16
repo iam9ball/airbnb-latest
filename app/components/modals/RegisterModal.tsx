@@ -12,7 +12,6 @@ import Heading from "../Heading";
 import Input, { RegisterType } from "../Input";
 import toast from "react-hot-toast";
 import Button from "../Button";
-import ProviderLogin from "@/app/actions/providerLogin";
 import { RegisterSchema } from "@/schema";
 import { zodResolver } from "@hookform/resolvers/zod";
 import useVerificationModal from "@/app/hooks/useVerificationModal";
